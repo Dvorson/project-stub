@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bemjson-loader@0.0.2",
+        "scope": null,
+        "escapedName": "bemjson-loader",
+        "name": "bemjson-loader",
+        "rawSpec": "0.0.2",
+        "spec": "0.0.2",
+        "type": "version"
+      },
+      "/Users/dvorson/projects/bempack"
+    ]
+  ],
+  "_from": "bemjson-loader@0.0.2",
+  "_id": "bemjson-loader@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bemjson-loader",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "name": "sullenor",
+    "email": "iamhoneyboy@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {
+    "bem-naming": "0.5.1",
+    "deps-normalize": "2.4.1",
+    "lodash": "3.10.1",
+    "stringify-object": "2.4.0"
+  },
+  "_requested": {
+    "raw": "bemjson-loader@0.0.2",
+    "scope": null,
+    "escapedName": "bemjson-loader",
+    "name": "bemjson-loader",
+    "rawSpec": "0.0.2",
+    "spec": "0.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bemjson-loader/-/bemjson-loader-0.0.2.tgz",
+  "_shasum": "877c2482e6f6decfe0a0aa3f8afa5f24581c37e4",
+  "_shrinkwrap": null,
+  "_spec": "bemjson-loader@0.0.2",
+  "_where": "/Users/dvorson/projects/bempack",
+  "author": {
+    "name": "Alexey Litvinov"
+  },
+  "bugs": {
+    "url": "https://github.com/sullenor/bemjson-loader/issues"
+  },
+  "dependencies": {
+    "bemjson-to-decl": "0.0.1",
+    "loader-utils": "^0.2.12"
+  },
+  "description": "bemjson-loader ==============",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "877c2482e6f6decfe0a0aa3f8afa5f24581c37e4",
+    "tarball": "https://registry.npmjs.org/bemjson-loader/-/bemjson-loader-0.0.2.tgz"
+  },
+  "gitHead": "85ebf4c6c21594d211a8c00a9b71da2afd6c477f",
+  "homepage": "https://github.com/sullenor/bemjson-loader#readme",
+  "keywords": [
+    "bem"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sullenor",
+      "email": "iamhoneyboy@gmail.com"
+    }
+  ],
+  "name": "bemjson-loader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullenor/bemjson-loader.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.2"
+}

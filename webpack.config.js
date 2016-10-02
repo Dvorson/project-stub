@@ -17,23 +17,28 @@ module.exports = {
         loaders: [
             {
                 test: /\.js/,
-                loader: 'ymodules-loader'
+                loader: 'ymodules-loader',
+                exclude: /node_modules/
             },
             {
                 test: /\.bemjson.js$/,
-                loader: 'bemdecl-to-fs!deps!bemjson?stringify=false'
+                loader: 'bemdecl-to-fs!deps!bemjson?stringify=false',
+                exclude: /node_modules/
             },
             {
                 test: /\.styl$/,
-                loader: ExtractTextPlugin.extract('style', 'css!postcss!stylus')
+                loader: ExtractTextPlugin.extract('style', 'css!postcss!stylus'),
+                exclude: /node_modules/
             },
             {
                 test: /\.(gif|png|svg)$/,
-                loader: 'url'
+                loader: 'url',
+                exclude: /node_modules/
             },
             {
                 test: /\.bh(\.js)?$/,
-                loader: 'loaders/bh'
+                loader: 'loaders/bh',
+                exclude: /node_modules/
             }
         ]
     },
@@ -64,7 +69,7 @@ module.exports = {
     ],
 
     resolveLoader: {
-        modulesDirectories: ['./webpack', './node_modules']
+        modulesDirectories: ['./webpack', './webpack/loaders']
     },
 
     plugins: [

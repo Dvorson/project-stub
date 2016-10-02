@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ymodules-loader@^1.0.2",
+        "scope": null,
+        "escapedName": "ymodules-loader",
+        "name": "ymodules-loader",
+        "rawSpec": "^1.0.2",
+        "spec": ">=1.0.2 <2.0.0",
+        "type": "range"
+      },
+      "/Users/dvorson/projects/bempack"
+    ]
+  ],
+  "_from": "ymodules-loader@>=1.0.2 <2.0.0",
+  "_id": "ymodules-loader@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ymodules-loader",
+  "_nodeVersion": "5.0.0",
+  "_npmUser": {
+    "name": "just-boris",
+    "email": "just-boris@hotmail.com"
+  },
+  "_npmVersion": "3.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ymodules-loader@^1.0.2",
+    "scope": null,
+    "escapedName": "ymodules-loader",
+    "name": "ymodules-loader",
+    "rawSpec": "^1.0.2",
+    "spec": ">=1.0.2 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ymodules-loader/-/ymodules-loader-1.0.2.tgz",
+  "_shasum": "d9f6997c2cadffd83a02654577bca23e2bdcd5b3",
+  "_shrinkwrap": null,
+  "_spec": "ymodules-loader@^1.0.2",
+  "_where": "/Users/dvorson/projects/bempack",
+  "author": "",
+  "dependencies": {
+    "babel-core": "^6.1.2"
+  },
+  "description": "> Webpack loader for [ymodules](https://github.com/ymaps/modules) module definitions",
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "webpack": "^1.12.3",
+    "ym": "^0.1.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "d9f6997c2cadffd83a02654577bca23e2bdcd5b3",
+    "tarball": "https://registry.npmjs.org/ymodules-loader/-/ymodules-loader-1.0.2.tgz"
+  },
+  "gitHead": "c49346b7845294e7890feaa3ecc55076e1eb789f",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "just-boris",
+      "email": "just-boris@hotmail.com"
+    }
+  ],
+  "name": "ymodules-loader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "pretest": "webpack --config test/webpack.config.js",
+    "test": "node dist/bundle.js"
+  },
+  "version": "1.0.2"
+}

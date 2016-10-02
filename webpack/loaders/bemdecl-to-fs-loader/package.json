@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bemdecl-to-fs-loader@0.0.4",
+        "scope": null,
+        "escapedName": "bemdecl-to-fs-loader",
+        "name": "bemdecl-to-fs-loader",
+        "rawSpec": "0.0.4",
+        "spec": "0.0.4",
+        "type": "version"
+      },
+      "/Users/dvorson/projects/bempack"
+    ]
+  ],
+  "_from": "bemdecl-to-fs-loader@0.0.4",
+  "_id": "bemdecl-to-fs-loader@0.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bemdecl-to-fs-loader",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "name": "sullenor",
+    "email": "iamhoneyboy@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bemdecl-to-fs-loader@0.0.4",
+    "scope": null,
+    "escapedName": "bemdecl-to-fs-loader",
+    "name": "bemdecl-to-fs-loader",
+    "rawSpec": "0.0.4",
+    "spec": "0.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bemdecl-to-fs-loader/-/bemdecl-to-fs-loader-0.0.4.tgz",
+  "_shasum": "7fdde4db69e4ce15848de455d74b3dbac95d2f04",
+  "_shrinkwrap": null,
+  "_spec": "bemdecl-to-fs-loader@0.0.4",
+  "_where": "/Users/dvorson/projects/bempack",
+  "author": {
+    "name": "Alexey Litvinov"
+  },
+  "bugs": {
+    "url": "https://github.com/sullenor/bemdecl-to-fs-loader/issues"
+  },
+  "dependencies": {
+    "bemdecl-to-fs": "^0.0.3",
+    "loader-utils": "^0.2.12",
+    "lodash.get": "^3.7.0"
+  },
+  "description": "bemdecl-to-fs-loader ====================",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7fdde4db69e4ce15848de455d74b3dbac95d2f04",
+    "tarball": "https://registry.npmjs.org/bemdecl-to-fs-loader/-/bemdecl-to-fs-loader-0.0.4.tgz"
+  },
+  "gitHead": "f89c2f2eaf2d34c901a3d80cffedf56b55dada80",
+  "homepage": "https://github.com/sullenor/bemdecl-to-fs-loader#readme",
+  "keywords": [
+    "bem"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sullenor",
+      "email": "iamhoneyboy@gmail.com"
+    }
+  ],
+  "name": "bemdecl-to-fs-loader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullenor/bemdecl-to-fs-loader.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.4"
+}
